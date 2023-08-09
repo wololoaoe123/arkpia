@@ -170,6 +170,7 @@ let researchers = [
     "0x884cd2d19E394619F16548c4dAA3dE85bb7B3e08",
     "0x33E3c007d1D48e2B645C9ce22570267b0C82f578",
     "0x7840bf8a8bED1Fe4e5dd4598fD4f134C51abdb7b",
+    "0xF8CD17784f425120de2f0D65756D8a707c13D040",
 ];
 
 // [EXPERIMENTAL FUNCTIONS] Enable them if you know what you are doing
