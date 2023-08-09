@@ -1,0 +1,139 @@
+/*! CSS Used from: https://www.mintarkpia.io/_next/static/css/51035177ddf22cc2.css */
+*,:after,:before{box-sizing:border-box;border:0 solid #e5e7eb;}
+:after,:before{--tw-content:"";}
+body{margin:0;line-height:inherit;}
+h2,h6{font-size:inherit;font-weight:inherit;}
+button{font-family:inherit;font-size:100%;font-weight:inherit;line-height:inherit;color:inherit;margin:0;padding:0;}
+button{text-transform:none;}
+button{-webkit-appearance:button;background-color:transparent;background-image:none;}
+h2,h6,p{margin:0;}
+ol{list-style:none;margin:0;padding:0;}
+button{cursor:pointer;}
+:disabled{cursor:default;}
+img,svg{display:block;vertical-align:middle;}
+img{max-width:100%;height:auto;}
+*{border-color:hsl(var(--border));}
+body{background-color:hsl(var(--background));color:hsl(var(--foreground));font-feature-settings:"rlig" 1,"calt" 1;}
+*,:after,:before{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-scroll-snap-strictness:proximity;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;}
+.container{width:100%;margin-right:auto;margin-left:auto;padding-right:2rem;padding-left:2rem;}
+@media (min-width:1400px){
+.container{max-width:1400px;}
+}
+.fixed{position:fixed;}
+.relative{position:relative;}
+.top-0{top:0;}
+.z-\[100\]{z-index:100;}
+.col-span-1{grid-column:span 1/span 1;}
+.col-span-10{grid-column:span 10/span 10;}
+.mx-1{margin-left:.25rem;margin-right:.25rem;}
+.mx-auto{margin-left:auto;margin-right:auto;}
+.mb-14{margin-bottom:3.5rem;}
+.mb-3{margin-bottom:.75rem;}
+.mb-\[6px\]{margin-bottom:6px;}
+.mt-1{margin-top:.25rem;}
+.mt-12{margin-top:3rem;}
+.mt-14{margin-top:3.5rem;}
+.mt-2{margin-top:.5rem;}
+.mt-3{margin-top:.75rem;}
+.mt-4{margin-top:1rem;}
+.mt-5{margin-top:1.25rem;}
+.mt-8{margin-top:2rem;}
+.flex{display:flex;}
+.grid{display:grid;}
+.hidden{display:none;}
+.h-8{height:2rem;}
+.max-h-screen{max-height:100vh;}
+.w-5{width:1.25rem;}
+.w-8{width:2rem;}
+.w-\[95\%\]{width:95%;}
+.w-full{width:100%;}
+.w-screen{width:100vw;}
+.max-w-\[1400px\]{max-width:1400px;}
+.max-w-\[70\%\]{max-width:70%;}
+.max-w-\[95\%\]{max-width:95%;}
+.grow{flex-grow:1;}
+.cursor-pointer{cursor:pointer;}
+.select-none{-webkit-user-select:none;-moz-user-select:none;user-select:none;}
+.grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr));}
+.flex-row{flex-direction:row;}
+.flex-col{flex-direction:column;}
+.flex-col-reverse{flex-direction:column-reverse;}
+.items-center{align-items:center;}
+.justify-end{justify-content:flex-end;}
+.justify-center{justify-content:center;}
+.justify-between{justify-content:space-between;}
+.justify-around{justify-content:space-around;}
+.gap-x-2{-moz-column-gap:.5rem;column-gap:.5rem;}
+.gap-x-24{-moz-column-gap:6rem;column-gap:6rem;}
+.gap-x-3{-moz-column-gap:.75rem;column-gap:.75rem;}
+.gap-x-7{-moz-column-gap:1.75rem;column-gap:1.75rem;}
+.gap-y-10{row-gap:2.5rem;}
+.gap-y-4{row-gap:1rem;}
+.rounded-2xl{border-radius:1rem;}
+.rounded-full{border-radius:9999px;}
+.border{border-width:1px;}
+.border-gray-100{--tw-border-opacity:1;border-color:rgb(243 244 246/var(--tw-border-opacity));}
+.bg-\[\#303030\]{--tw-bg-opacity:1;background-color:rgb(48 48 48/var(--tw-bg-opacity));}
+.bg-\[\#DD3700\]{--tw-bg-opacity:1;background-color:rgb(221 55 0/var(--tw-bg-opacity));}
+.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255/var(--tw-bg-opacity));}
+.p-4{padding:1rem;}
+.py-2{padding-top:.5rem;padding-bottom:.5rem;}
+.py-3{padding-top:.75rem;padding-bottom:.75rem;}
+.py-4{padding-top:1rem;padding-bottom:1rem;}
+.py-8{padding-top:2rem;}
+.pb-8,.py-8{padding-bottom:2rem;}
+.text-center{text-align:center;}
+.text-2xl{font-size:1.5rem;line-height:2rem;}
+.text-3xl{font-size:1.875rem;line-height:2.25rem;}
+.text-4xl{font-size:2.25rem;line-height:2.5rem;}
+.text-lg{font-size:1.125rem;line-height:1.75rem;}
+.text-sm{font-size:.875rem;line-height:1.25rem;}
+.text-xs{font-size:.75rem;line-height:1rem;}
+.font-bold{font-weight:700;}
+.font-normal{font-weight:400;}
+.uppercase{text-transform:uppercase;}
+.text-\[\#434343\]{--tw-text-opacity:1;color:rgb(67 67 67/var(--tw-text-opacity));}
+.text-\[\#DD3700\]{--tw-text-opacity:1;color:rgb(221 55 0/var(--tw-text-opacity));}
+.text-\[\#DD4155\]{--tw-text-opacity:1;color:rgb(221 65 85/var(--tw-text-opacity));}
+.text-ark-gray{--tw-text-opacity:1;color:rgb(153 153 153/var(--tw-text-opacity));}
+.text-black{--tw-text-opacity:1;color:rgb(0 0 0/var(--tw-text-opacity));}
+.text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity));}
+.underline{text-decoration-line:underline;}
+.shadow-md{box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);}
+.shadow-md{--tw-shadow:0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -2px rgba(0,0,0,.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color),0 2px 4px -2px var(--tw-shadow-color);}
+body{overflow-x:hidden;}
+@media (min-width:640px){
+.sm\:bottom-0{bottom:0;}
+.sm\:right-0{right:0;}
+.sm\:top-auto{top:auto;}
+.sm\:mx-1{margin-left:.25rem;margin-right:.25rem;}
+.sm\:mt-0{margin-top:0;}
+.sm\:mt-16{margin-top:4rem;}
+.sm\:aspect-\[920\/300\]{aspect-ratio:920/300;}
+.sm\:h-\[330px\]{height:330px;}
+.sm\:w-full{width:100%;}
+.sm\:max-w-\[600px\]{max-width:600px;}
+.sm\:flex-row{flex-direction:row;}
+.sm\:flex-col{flex-direction:column;}
+.sm\:py-0{padding-top:0;padding-bottom:0;}
+}
+@media (min-width:768px){
+.md\:w-full{width:100%;}
+.md\:max-w-\[420px\]{max-width:420px;}
+}
+@media (min-width:1024px){
+.lg\:col-span-4{grid-column:span 4/span 4;}
+.lg\:col-span-6{grid-column:span 6/span 6;}
+.lg\:block{display:block;}
+.lg\:aspect-\[920\/300\]{aspect-ratio:920/300;}
+.lg\:h-\[330px\]{height:330px;}
+.lg\:w-full{width:100%;}
+.lg\:grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr));}
+.lg\:grid-cols-10{grid-template-columns:repeat(10,minmax(0,1fr));}
+.lg\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr));}
+.lg\:py-0{padding-top:0;padding-bottom:0;}
+}
+/*! CSS Used from: Embedded */
+.css-1pphovf{position:absolute;width:50px;height:58px;top:-3px;font-weight:600;color:white;z-index:1;left:20px;text-align:center;font-size:12px;background:rgb(221, 55, 0);border-radius:3px 3px 10px 10px;user-select:none;}
+/*! CSS Used from: Embedded */
+[data-rk]{--rk-blurs-modalOverlay:blur(0px);--rk-fonts-body:SFRounded, ui-rounded, "SF Pro Rounded", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";--rk-radii-actionButton:9999px;--rk-radii-connectButton:12px;--rk-radii-menuButton:12px;--rk-radii-modal:24px;--rk-radii-modalMobile:28px;--rk-colors-accentColor:#0E76FD;--rk-colors-accentColorForeground:#FFF;--rk-colors-actionButtonBorder:rgba(0, 0, 0, 0.04);--rk-colors-actionButtonBorderMobile:rgba(0, 0, 0, 0.06);--rk-colors-actionButtonSecondaryBackground:rgba(0, 0, 0, 0.06);--rk-colors-closeButton:rgba(60, 66, 66, 0.8);--rk-colors-closeButtonBackground:rgba(0, 0, 0, 0.06);--rk-colors-connectButtonBackground:#FFF;--rk-colors-connectButtonBackgroundError:#FF494A;--rk-colors-connectButtonInnerBackground:linear-gradient(0deg, rgba(0, 0, 0, 0.03), rgba(0, 0, 0, 0.06));--rk-colors-connectButtonText:#25292E;--rk-colors-connectButtonTextError:#FFF;--rk-colors-connectionIndicator:#30E000;--rk-colors-downloadBottomCardBackground:linear-gradient(126deg, rgba(255, 255, 255, 0) 9.49%, rgba(171, 171, 171, 0.04) 71.04%), #FFFFFF;--rk-colors-downloadTopCardBackground:linear-gradient(126deg, rgba(171, 171, 171, 0.2) 9.49%, rgba(255, 255, 255, 0) 71.04%), #FFFFFF;--rk-colors-error:#FF494A;--rk-colors-generalBorder:rgba(0, 0, 0, 0.06);--rk-colors-generalBorderDim:rgba(0, 0, 0, 0.03);--rk-colors-menuItemBackground:rgba(60, 66, 66, 0.1);--rk-colors-modalBackdrop:rgba(0, 0, 0, 0.3);--rk-colors-modalBackground:#FFF;--rk-colors-modalBorder:transparent;--rk-colors-modalText:#25292E;--rk-colors-modalTextDim:rgba(60, 66, 66, 0.3);--rk-colors-modalTextSecondary:rgba(60, 66, 66, 0.6);--rk-colors-profileAction:#FFF;--rk-colors-profileActionHover:rgba(255, 255, 255, 0.5);--rk-colors-profileForeground:rgba(60, 66, 66, 0.06);--rk-colors-selectedOptionBorder:rgba(60, 66, 66, 0.1);--rk-colors-standby:#FFD641;--rk-shadows-connectButton:0px 4px 12px rgba(0, 0, 0, 0.1);--rk-shadows-dialog:0px 8px 32px rgba(0, 0, 0, 0.32);--rk-shadows-profileDetailsAction:0px 2px 6px rgba(37, 41, 46, 0.04);--rk-shadows-selectedOption:0px 2px 6px rgba(0, 0, 0, 0.24);--rk-shadows-selectedWallet:0px 2px 6px rgba(0, 0, 0, 0.12);--rk-shadows-walletLogo:0px 2px 16px rgba(0, 0, 0, 0.16);}

